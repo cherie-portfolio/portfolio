@@ -3,71 +3,229 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>�|�[�g�t�H���I | �ق���̏�����i</title>
+    <title>ポートフォリオ | ゆがみうた。サンプル</title>
     <style>
+        /* 基本のスタイル */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f8f8;
+            background-color: #222;
+            color: #fff;
             text-align: center;
+            background-image: url('black-rose.jpg'); /* 黒薔薇の画像を背景に設定 */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
         }
+
+        /* ヘッダー */
         header {
-            background-color: #333;
+            background-color: rgba(0, 0, 0, 0.7); /* 背景を少し暗く */
             color: white;
-            padding: 20px;
-            font-size: 24px;
+            padding: 30px;
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 3px solid #fff;
         }
+
+        /* ナビゲーション */
         nav {
             margin: 20px 0;
         }
         nav a {
-            margin: 0 15px;
+            margin: 0 20px;
             text-decoration: none;
-            color: #333;
+            color: #fff;
             font-size: 18px;
+            transition: color 0.3s ease;
         }
+        nav a:hover {
+            color: #aaa; /* ホバー時に色を少し変える */
+        }
+
+        /* セクションのコンテンツ */
         .content {
-            padding: 20px;
+            padding: 40px;
+            background-color: rgba(0, 0, 0, 0.8); /* 背景を少し透明に */
+            margin: 20px auto;
+            border-radius: 8px;
+            max-width: 1000px;
         }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            font-size: 36px;
+            font-weight: bold;
+            border-bottom: 2px solid #fff;
+            padding-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        section p {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        /* 作品一覧のスタイル */
+        article {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1); /* 少し透明な背景 */
+            border-radius: 8px;
+        }
+        article h3 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        article p {
+            font-size: 18px;
+            color: #ccc;
+        }
+        article a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        article a:hover {
+            color: #aaa;
+        }
+
+        /* フッター */
         footer {
-            margin-top: 20px;
-            padding: 10px;
             background-color: #333;
             color: white;
+            padding: 10px;
+            font-size: 14px;
         }
     </style>
 </head>
 <body>
     <header>
-        �ق���̏����|�[�g�t�H���I
+        ゆがみうた。ポートフォリオ
     </header>
+
     <nav>
-        <a href="#about">���ȏЉ�</a>
-        <a href="#works">��i�ꗗ</a>
-        <a href="#commission">�˗��ɂ���</a>
-        <a href="#contact">���₢���킹</a>
+        <a href="#about">自己紹介</a>
+        <a href="#works">作品サンプル一覧</a>
+        <a href="#commission">ご依頼について</a>
+        <a href="#contact">お問い合わせ</a>
     </nav>
+
     <div class="content">
         <section id="about">
-            <h2>���ȏЉ�</h2>
-            <p>�����Ɏ��ȏЉ����������I</p>
+            <h2>自己紹介</h2>
+            <p>cherieと申します。
+<p>夢小説をメインに10年以上執筆活動を続けており、サイト運営や同人誌制作の経験がございます。総合実績は300件↑　ご依頼を受け始めてから３年ほどになります。</p>
+<p>得意分野は心情描写、ヤンデレや拗らせた感情、コミカルな会話の応酬など。</p>
+
+<p>自分だけの物語を読みたい方のお力になれればと思っております。素敵な物語をお届けできれば幸いです。</p>
         </section>
+
         <section id="works">
-            <h2>��i�ꗗ</h2>
-            <p>�����ɍ�i���X�g���ڂ������I</p>
+            <h2>作品サンプル一覧</h2>
+                <article>
+                <h3>💖 夢小説：甘々男性一人称（抜粋773字）</h3>
+                <p>
+                    「キスして。それ以上も。プレゼントに、足りないから君をちょうだい」
+                </p>
+                <a href="novel_sample_dream1.html">続きを読む</a>
+            </article>
+    
+                <article>
+                <h3>🥀 夢小説：ヤンデレ風三人称視点（抜粋748字）</h3>
+                <p>
+                    やっと手に入れたのに。こんなにも愛おしいのに。
+                </p>
+                <a href="novel_sample_dream2.html">続きを読む</a>
+            </article>
+    
+            <article>
+                <h3>💧 夢小説：切なめ女性一人称（抜粋670字）</h3>
+                <p>
+                    どうか殺して。恋心なんて。
+                </p>
+                <a href="novel_sample_dream3.html">続きを読む</a>
+            </article>
+    
+            <article>
+                <h3>❣️ 夢小説：コメディ風男性一人称（抜粋842字）</h3>
+                <p>
+                    ──理性が吹き飛ぶから勘弁してくれ。
+                </p>
+                <a href="novel_sample_dream4.html">続きを読む</a>
+            </article>
+                <article>
+                <h3>💕 夢小説：セクシー風三人称視点（抜粋745字）</h3>
+                <p>
+                    「少しでいいよ。それでもダメ？」
+                </p>
+                <a href="novel_sample_dream5.html">続きを読む</a>
+            </article>
+    
+            <article>
+                <h3>📖 ノーマル小説：地の文多め、文章固め（抜粋760字）</h3>
+                <p>
+                    その子供は、至極面倒くさいことに好奇心の塊であった。
+                </p>
+                <a href="novel_sample_normal1.html">続きを読む</a>
+            </article>
+    
+            <article>
+                <h3>👻 ノーマル小説：ホラー描写（抜粋749字）</h3>
+                <p>
+                    ひたり。背後で物音。
+                </p>
+                <a href="novel_sample_normal2.html">続きを読む</a>
+            </article>
+    
+            <article>
+                <h3>✊️ ノーマル小説：バトル描写（抜粋594文字）</h3>
+                <p>
+                    「でも！　悪いけど通してもらうわよ。あんたたちなんて、私ひとりで十分なんだから！」
+                </p>
+                <a href="novel_sample_normal3.html">続きを読む</a>
+            </article>
+    
+            <article>
+                <h3>🌹 ＢＬ小説一人称（抜粋752文字）</h3>
+                <p>
+                    オスの本能が、〇〇よりおれのが上ってことじゃない？
+                </p>
+                <a href="novel_sample_bl.html">続きを読む</a>
+            </article>
         </section>
+
         <section id="commission">
-            <h2>�˗��ɂ���</h2>
-            <p>�˗��̗���◿���\���f�ڂ������I</p>
+            <h2>ご依頼について</h2>
+            <p>ご依頼はSKIMA、Xにて承っております。</p>
+<p>履修ジャンルが狭い為、ご依頼可能かどうか一度メッセージをいただけますと幸いです。履修可能ジャンルの場合は資料をいただくなどして未履修ジャンルでもご依頼をお受けすることが可能です。</p>
+
+<p>メッセージ（DM）にてご連絡→こちらからテンプレート等お伺いしたいことについての返信→ヒアリングして内容のすり合わせ→プロット・執筆→完成次第のお見積り・お支払い→納品　という流れになっております。</p>
+
+<p>ご依頼料金は　１文字１円（＋手数料半額）</p>
+<p>登場キャラクターの多さやバトルなどの特殊描写、履修時間の長さなどでプラス料金をいただく場合がございます。</p>
+
+<p>通常小説プラン以外にもL版SS、詰め込み小説、製本コースなどございますのでコミッションをご覧いただけますと幸いです。</p>
+<p>いずれもXでのご依頼も可能となっております。</p>
+<p>Xでのご依頼については　<a href="https://profcard.info/u/94iDKPOanvOU6PGQPsqQyzkPLb72">＞こちら＜</a>　もご一読ください。</p>
         </section>
+
         <section id="contact">
-            <h2>���₢���킹</h2>
-            <p>�A�����˗��t�H�[�����ڂ������I</p>
+            <h2>お問い合わせ</h2>
+            <p>SKIMA ID:298798</p>
+            <p>X ID:@yugamiuta</p>
+            <p>mail:penkokd51@gmail.com</p>
         </section>
     </div>
+
     <footer>
-        &copy; 2025 �ق���̃|�[�g�t�H���I
+        &copy; 2025 ゆがみうた。サンプル
     </footer>
 </body>
 </html>

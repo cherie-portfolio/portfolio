@@ -1,0 +1,73 @@
+/* style.css */
+
+/* ベースのスタイル */
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1d1d1d; /* ダークグレーの背景 */
+    color: #eaeaea; /* 明るいグレーで視認性を高める */
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #d1b17f; /* ダークゴールド */
+}
+
+header {
+    background-image: url('images/black-rose.jpg'); /* 黒薔薇の画像を背景に */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* 画面いっぱいの高さ */
+    text-align: center;
+    color: white;
+    padding-top: 100px; /* 余白で調整 */
+}
+
+header h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333; /* ダークグレーのナビゲーションバー */
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #eaeaea;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #d1b17f; /* ホバー時のゴールド */
+}
+
+/* サンプルページ */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #eaeaea;
+    text-align: center;
+    padding: 20px 0;
+}
